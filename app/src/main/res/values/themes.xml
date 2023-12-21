@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tubes_weatherapp2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="color">@color/blue</item>
+         <item name="colorPrimaryVariant">@color/blue</item>
+         <item name="android:statusBarColor">@color/blue</item>
+    </style>
+        <style name="Theme.Tubes_weatherapp2" parent="Base.Theme.Tubes_weatherapp2" />
+        <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+            <item name="android:color">@color/yellow</item>
+    </style>
+</resources>

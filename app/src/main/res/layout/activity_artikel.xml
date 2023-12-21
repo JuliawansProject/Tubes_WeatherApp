@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Gambar Artikel -->
+    <ImageView
+        android:id="@+id/imageViewArticle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cumolonimbus" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Awan Cumolonimbus" />
+
+    <!-- Penulis dan Tanggal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Penulis: Aditya" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tanggal: 23 Desember 2023" />
+    </LinearLayout>
+
+    <!-- Isi Artikel -->
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur ab officia in odit at! Iste, accusamus nobis! Exercitationem possimus quas voluptates, nostrum nesciunt soluta itaque esse velit dolore vel modi eum. Molestias fugit dolorum similique amet hic eligendi non in quas nobis, sapiente atque laboriosam magni nemo, deleniti provident? Exercitationem deserunt architecto reprehenderit minima incidunt iusto harum aperiam dolorem voluptas debitis laudantium, nemo cumque nesciunt autem, commodi eum, perspiciatis blanditiis sed ipsum mollitia tempore eveniet at! Suscipit modi, quis cum tenetur qui aut optio, voluptate debitis esse maxime nobis quaerat nulla consequatur labore id unde eligendi numquam maiores sapiente veniam. Nesciunt eligendi tenetur maxime eum pariatur nulla consequuntur odit minus inventore, veniam velit culpa. Doloremque quibusdam, in nostrum ut atque magnam rem, accusamus distinctio molestias fugiat ad quam dicta explicabo ea, enim perspiciatis tempore! Consequatur soluta maxime nesciunt cum nemo ea architecto corporis totam ipsam. Exercitationem commodi eveniet dolores fugiat, consequatur quae magni possimus hic delectus iste ex error architecto ipsum soluta eum corrupti distinctio perferendis? Ea tempora, aspernatur pariatur molestiae repellendus ratione velit inventore impedit natus eveniet architecto error vel. Totam possimus neque quisquam facere? Iste consectetur pariatur provident soluta labore nulla ipsum adipisci, iusto neque aliquid tenetur?"
+        android:textSize="16sp" />
+
+</LinearLayout>
