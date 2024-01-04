@@ -14,3 +14,6 @@ Anggota 1:
  - membuat home page aplikasi
  - namun aplikasi belum selesai dan masih dalam tahap belajar
 Anggota 2:
+
+Contact Person: Ketua (087735501212) >>>
+diperlukan jika ada masalah yang berkaitan dengan konektivitas database kelompok Anda
